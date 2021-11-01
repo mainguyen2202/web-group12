@@ -1,10 +1,50 @@
-.navbar-brand{
-	/* float: right !important; */
+/* .navbar-brand{
+	float: right !important;
 }
 
 .navbar.navbar-default {
-    /* float: left; */
+    float: right;
+
 }
-.title2mai{
+.logo{
+	float: left;
+} */
+
+.title2-tm{
 	color: azure;
+}
+
+.main-menu ul.navbar-nav li a {
+
+    font-size: 13px;
+}
+
+.s-menu {
+    font-size: 15px;
+}
+
+.main-menu ul.navbar-nav li a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 33px 10px;
+
+    padding-top: 33px;
+    padding-right:10px;
+    padding-bottom: 33px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    position: relative;
+}
+.header-area.stick .main-menu ul.navbar-nav li a {
+    padding: 10
+px
+ 10
+px
+;
+padding-right:10px;
+padding-bottom: 33px;
+padding-left: 10px;
+    color: #151b2c;
 }
