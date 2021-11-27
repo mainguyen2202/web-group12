@@ -148,6 +148,10 @@ table
 /*stab css*/
 
 /*css about*/
+.containerabout{
+    width: 1300px;
+    
+}
 
 
 
@@ -183,6 +187,7 @@ table
     justify-content: space-evenly;
     flex-wrap: wrap;
     text-align: center;
+    
 }
 
 
