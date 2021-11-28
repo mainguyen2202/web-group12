@@ -149,7 +149,8 @@ table
 
 /*css about*/
 .containerabout{
-    width: 1275px;
+    /* width: 1275px; */
+    width: 115%;
  
     
 }
