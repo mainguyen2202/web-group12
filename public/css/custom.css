@@ -467,5 +467,12 @@ p {
     cursor: default;
 }
 
+.about-text{
+    text-align: left;
+    margin-left: 40px;
+}
 
-/* Result */
+.result-text{
+    text-align: left; 
+}
+/* end Result */
