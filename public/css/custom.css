@@ -148,21 +148,40 @@ table
 /*stab css*/
 
 /*css about*/
+.single-member{
+    margin-bottom: 30px;
+    border: 1px solid #f4f4f4;
+    padding: 30px 20px;
+}
+.single-member .team-img {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    max-height: 200px;
+    max-width: 200px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid #E6922E;
+}
 
+/* end about */
 
 
 
 
 /* Réult */
 .card {
-    width: 235px;
-    height: 370px;
+    width: 210px;
+    height: 400px;
     border: 1px;
     border-style: solid;
     border-radius: 15px !important;
     border-color: rgba(0, 0, 0, 0.267) !important ;
-    margin-top: 40px;
-    background-color: rgba(152, 234, 248, 0.137) !important;
+  
+    /* margin-top: 40px; */
+    /* background-color: rgba(152, 234, 248, 0.137) !important; */
+   background-color: rgba(199, 203, 204, 0.137) !important;
     transition-delay: 0.1s;
     display: flex;
     align-items: stretch;
@@ -182,20 +201,23 @@ table
     display: flex;
     align-items: stretch;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     text-align: center;
+    
     
 }
 
 
 
 .card__image {
-    width: 140px;
-    height: 140px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     margin-top: 20px;
-    margin-left: 45px;
-    margin-right: 42px;
+    
+    margin-left:30px;
+    margin-right: 30px;
+    border: 2px solid #E6922E;
     box-shadow: 0 10px 50px rgba(182, 182, 181, 0.8);
 }
 .card__image:hover {
@@ -257,20 +279,28 @@ span1:hover {
 /* css result*/
 
 .card1 {
+
+    
+  
+   
+   
    
     border: 1px;
     border-style: solid;
     border-radius: 15px !important;
     border-color: rgba(0, 0, 0, 0.267) !important ;
     margin-top: 40px;
+    
     background-color: rgba(152, 234, 248, 0.137) !important;
     transition-delay: 0.1s;
     display: flex;
     align-items: stretch;
     justify-content: space-evenly;
+    
 
 
 }
+
 
 .result .why-choose-us-content{
     display: inline-block;
@@ -320,6 +350,7 @@ span1:hover {
     transition-property: width,height;
     transition-duration: 1s;
     transition-timing-function: ease;
+    
 }
 .result .rounded-circle:hover{
     width: 130px;
@@ -401,6 +432,7 @@ p {
     margin-inline-end: 0px;
 }
 .card {
+    
     position: relative;
     display: -ms-flexbox;
     display: flex;
@@ -446,7 +478,11 @@ p {
 }
 
 .rounded-circle {
+    width: 160px!important;
+    height: 160px!important;
+    margin-top: 20px;
     border-radius: 50%!important;
+    border: 2px solid #E6922E;
 }
 .faqs .carf-header a {
     display: block;
@@ -466,6 +502,7 @@ p {
     border-bottom-color: transparent;
     cursor: default;
 }
+
 
 .about-text{
     text-align: left;
