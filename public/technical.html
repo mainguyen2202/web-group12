@@ -194,17 +194,17 @@
                 <br>
                 <div class="page-header" style="margin-top: 0px;">
                     <div class="container">
-                        <div class="row"
-                        ><div class="col-12">
-                            <h2>TECHNICAL</h2>
-                        </div>
-                        <div class="col-12">
-                            <a href="/">Home</a>
-                            <a>Technical</a>
+                        <div class="row"></div>
+                            <div class="col-12">
+                                <h2>TECHNICAL</h2>
+                            </div>
+                            <div class="col-12">
+                                <a href="/">Home</a>
+                                <a>Technical</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
 
             </div>
@@ -215,70 +215,67 @@
     <div class="service">
         <div class="container">
             <div class="section-header text-center">
-                <h2>Hướng dẫn sử dụng Firebase</h2>
+                <h2>Firebase User Guide</h2>
             </div>
-            <p>Firebase là gì? Cách "triển khai" trang web tới Firebase.
-                Hôm nay nhóm 12 sẽ giới thiệu về Firebase và hướng dẫn các bạn cách triển khai "HTML-CSS-JS" vào firebase</p>
-            <h4><b>1. Giới thiệt về Firebase</b></h4>
-                <h5><b>Khái niệm:</b></h5>
-            <p>  Firebase là dịch vụ cơ sở dữ liệu thời gian thực do Google cung cấp và hoạt động trên nền tảng đám mây
-                để hỗ trợ việc tạo ra các ứng dụng di động và web chất lượng cao. Với việc sử dụng Firebase,
-                các nhà phát triển có thể tập trung vào việc phát triển ứng dụng của họ mà không cần lo lắng về cách sản phẩm của họ sẽ hoạt động
-                và được quản lý trên chương trình phụ trợ.</p>
-          
-            <h5><b>Ưu điểm:</b></h5>
-            <li style="color: black;">Triển khai ứng dụng nhanh chóng: Firebase tiết kiệm rất nhiều thời gian quản lý và đồng bộ 
-                hóa tất cả dữ liệu cho người dùng. Đó là vì người dùng không bị áp lực, quan tâm đến phần được hỗ trợ, với các API tốt
-                và hỗ trợ đa nền tảng.</li>
-            <li style="color: black;">An toàn: Bạn có thể hoàn toàn yên tâm về tính bảo mật của Firebase nhờ nền tảng đám mây,
-                 kết nối qua SSL, sử dụng JavaScript cho quyền người dùng cơ sở dữ liệu, ...</li>
-            <li style="color: black;">Ổn định: Được viết trên nền tảng đám mây do Google cung cấp nên các công cụ luôn đảm bảo tính 
-                ổn định tối đa. Bên cạnh đó, quá trình nâng cấp hay bảo trì Server cũng diễn ra nhanh chóng và đơn giản hơn.</li>
+            <p>What is Firebase? How to "deploy" a website to Firebase.
+                Today group 12 will introduce Firebase and guide you how to deploy "HTML-CSS-JS" into firebase.</p>
+            <h4><b>1. Introducing Firebase</b></h4>
+            <h5><b>Concept:</b></h5>
+            <p> Firebase is a real-time database service provided by Google and operated in the cloud
+                to assist in the creation of high-quality mobile and web applications. With using Firebase,
+                Developers can focus on developing their apps without worrying about how their product will function.
+                and is administered on the backend.</p>
+
+            <h5><b>Advantages:</b></h5>
+            <li style="color: black;">Deploying the application quickly: Firebase saves a lot of time managing and
+                syncing all data for users. That's because the user is not under pressure, interested in the part
+                supported, with good APIs and cross-platform support.</li>
+            <li style="color: black;">Safety: You can be completely assured of Firebase security thanks to the cloud platform, connecting over SSL, using JavaScript for database user rights, ...</li>
+            <li style="color: black;">Stable: Written on the cloud platform provided by Google, the tools always ensure maximum stability. Besides, the process of upgrading or maintaining the Server is also quicker and simpler.</li>
             <!-- <p>Fast App Deployment: Firebase saves a lot of time managing and syncing all the data for users. That's because users are not pressured, interested in the backed part, with good APIs, and cross-platform support.</p> -->
             <!-- <p>Security: You can be completely assured of Firebase's security thanks to the cloud platform, connecting via SSL, using JavaScript for database user rights, ...</p> -->
             <!-- <p>Stability: Written on the cloud platform provided by Google, the tools always ensure maximum stability. Besides, the process of upgrading or maintaining the Server is also faster and simpler.</p> -->
-            <h5><b>Nhược điểm:</b></h5>
-            <p>Cơ sở dữ liệu của Firebase được tổ chức theo kiểu cây, cha-con. Trong khi đó, người dùng SQL
-                quen thuộc với kiểu Bàn truyền thống. Khi sử dụng Firebase, có thể người dùng sẽ mất thời gian
-                làm quen trước khi sử dụng thành thạo.</p>
-            <h4><b>2.Cách triển khai trang web </b></h4>
-            <p><b>2.1:</b> Truy cập vào <a href="https://firebase.google.com/" target="_blank">Firebase</a> và đăng
-                nhập bằng tài khoản Google.<br>
-                Nhấn vào <b>Go to console</b> hoặc <b>Get started</b><br>
+            <h5><b>Disadvantages:</b></h5>
+            <p>Firebase databases are organized in a tree, parent-child fashion. Meanwhile, SQL users are familiar with the traditional Table style. When using Firebase, it may take a while for users to get used to it before mastering it.</p>
+            <h4><b>2. How to implement the website </b></h4>
+            <p><b>2.1:</b> Access to <a href="https://firebase.google.com/" target="_blank">Firebase</a>and sign in with your Google account. <br>
+                Click <b>Go to console</b> or <b>Get started</b><br>
                 <img src="img/technical/t1.png">
-                <br><br> Chọn <b>Add project</b><br><br>
+                <br><br> Choose <b>Add project</b><br><br>
                 <img src="img/technical/t2.png">
-                <br><br>Nhập tên <b>project</b> của bạn ở phần <b>Enter the name of your project</b> rồi nhấn <b>Continue</b><br><br>
+                <br><br>Enter name <b>project</b> in your section <b>Enter the name of your project</b> then press
+                <b>Continue</b><br><br>
                 <img src="img/technical/t3.png">
-                <br><br>Tiếp tục nhấn <b>Continue</b><br><br>
+                <br><br>Continue to press <b>Continue</b><br><br>
                 <img src="img/technical/t4.png">
-                <br><br>Nhấn <b>Create project</b><br><br>
+                <br><br>Click <b>Create project</b><br><br>
                 <img src="img/technical/t5.png">
-                <b>2.1:</b> Sau khi chọn vào phần <b>Create project</b> bạn cần tạo tên miền của riêng bạn<br>
-                <br>Bạn có thể truy cập vào <a href="https://www.freenom.com/vi/index.html?lang=vi"
-                    target="_blank"> Freenom</a> để tạo tên miền của bạn. Sau đó bạn cần phải đăng nhập vào bằng tài khoản
-                    <b>Email</b> của bạn.<br>
+                <b>2.1:</b> After choosing to go to the section <b>Create project</b> You need to create your own domain name<br>
+                <br>You can Access to <a href="https://www.freenom.com/vi/index.html?lang=vi" target="_blank">
+                    Freenom</a> to create your domain name. Then you need to log in with your account
+                <b>Email</b> your.<br>
                 <img src="img/technical/t16.png">
-                <br><br>Sau khi đăng nhập vô rồi bạn chọn vào <b>Service</b> rồi chọn vào <b>Register a New Domain</b> để tạo tên miền 
-                            mới.<br><br>
+                <br><br>After logging in and then you choose to enter <b>Service</b> then choose to enter <b>Register a New Domain</b>
+                to create a new domain name.<br><br>
                 <img src="img/technical/t20.png">
-                <br><br> Sau khi nhập tên miền bạn cần kiểm tra xem tên miền đó có tồn tại hay không <br>
-                <br> <b> Mẹo</b>: Bạn có thể tạo tên miền với đuôi <u>.tk</u><br>
+                <br><br> After entering the domain name you need to check if the domain name exists or not <br>
+                <br> <b> Tips</b>: You can create domain names with extensions <u>.tk</u><br>
                 <img src="img/technical/t21.png">
-                <br> Nếu tên miền có thể sử dụng được, bạn chọn tiếp vào phần <b>Checkout</b> <br>
+                <br> If the domain name is available, go to the section <b>Checkout</b> <br>
                 <img src="img/technical/t17.png">
-                <br>Đừng quên chọn số tháng, bạn có thể sử dụng miễn phí lên đến 12 tháng<br>
+                <br>Don't forget to choose the number of months, you can use it for free for up to 12 months<br>
                 <img src="img/technical/t18.png">
-                <br>Sau khi chọn số tháng, hãy nhấp vào <b>Continue</b><br>
+                <br>After selecting the number of months, click <b>Continue</b><br>
                 <img src="img/technical/t19.png">
-                <br>Tích xanh vào phần <b>I have read and agree to the Terms & Condition</b>. Nhấn vào <b>Complete Oder</b> 
-                        để tạo tên miền<br>
+                <br>Check green in the <b> I have read and agree to the Terms & Condition ”section</b>. Click <b>Complete
+                    Oder</b>
+                    to create a domain name<br>
                 <img src="img/technical/t22.png">
-                <b>2.3: </b>Để có thể mở <b>cmd</b> bạn có thể làm 1 trong 2 cách dưới đây<br><br>
-                <br><br><u> Cách 1:</u> Nhập <b>cmd</b> ở thanh <b>Type here to search</b> trên thanh tác vự
-                            rồi nhấn <b>Enter</b><br><br>
-                <img src="img/technical/t24.png">    
-                <br><br><u> Cách 2:</u> Vào một thư mục trống (Thư mục nên đặt tên không dấu). Sau đó nhập <b>cmd</b> rồi nhấn <b>Enter</b>.<br><br>
+                <b>2.3: </b>To be able to open <b>cmd</b> You can do 1 of 2 below<br><br>
+                <br><br><u> Way 1:</u> Import <b>cmd</b> in the bar <b>Type here to search</b> in the toolbar then press <b>Enter</b><br><br>
+                <img src="img/technical/t24.png">
+                <br><br><u> Way 2:</u> Go to an empty folder (the folder should be named unsigned). Then enter <b>cmd</b>
+               then click<b>Enter</b>.<br><br>
                 <img src="img/technical/t25.png">
                 <!-- <img src="img/technical/t6.png" style="height:auto;width:730px;"><br><br> To be able to access your project you need to follow the pictures below<br><br>
                         <br><br> Import <b> firebase init</b><br><br>
@@ -288,31 +285,33 @@
                         <img src="img/technical/t10.png" style="height:auto;width:700px;"><br><br> Choice your project and press<b> Enter </b><br><br>
                         <img src="img/technical/t11.png" style="height:auto;width:700px;"><br><br> Do steps as picture below<br><br>
                         <img src="img/technical/t12.png" style="height:auto;width:700px;"><br> -->
-                </b>Sau khi mở <b>cmd</b> nhập <b>npm install -g firebase-tool </b>, rồi tiếp tục nhập <b>firebase login</b><br><br>
+                </b>After opening <b>cmd</b> import <b>npm install -g firebase-tool </b>, then continue to import <b>firebase
+                    login</b><br><br>
                 <img src="img/technical/t6.png" style="width: 1200px;">
-                <br><br> Nhập <b> firebase init</b><br><br>
-                <img src="img/technical/t7.png" style="width: 1200px;"><br><br> ? Are you ready to proceed?(Y/n).Nhập vào
+                <br><br> Import <b> firebase init</b><br><br>
+                <img src="img/technical/t7.png" style="width: 1200px;"><br><br> Are you ready to proceed? (Y / n)? 
                 <b>Y(Yes).</b><br><br>
-                <img src="img/technical/t8.png" style="width: 1200px;"><br><br> Nhấn vào mũi tên đi xuống <b>↓</b> đến mục <b>Hosting</b>, nhấn 
-                <b>Spacebar</b> để chọn, cuối cùng nhấn <b>Enter</b><br><br>
-                <img src="img/technical/t9.png" style="width: 1200px;"><br><br><br> Chọn phần <b>Use an existing
-                    project</b>  rồi nhấn <b>Enter</b><br><br>
-                <img src="img/technical/t10.png" style="width: 1200px;"><br><br> Chọn vào tên <b>project</b> mà bạn đã tạo trước đó rồi nhấn<b> Enter
+                <img src="img/technical/t8.png" style="width: 1200px;"><br><br> Click the down arrow <b>↓</b> to the item <b>Hosting</b>, click
+                <b>Spacebar</b> to select, finally press <b>Enter</b><br><br>
+                <img src="img/technical/t9.png" style="width: 1200px;"><br><br><br> Select section <b>Use an existing
+                    project</b> then click <b>Enter</b><br><br>
+                <img src="img/technical/t10.png" style="width: 1200px;"><br><br> Select the name <b>project</b> that you created earlier then press<b> Enter
                 </b><br><br>
-                <img src="img/technical/t11.png" style="width: 1200px;"><br> What do you want to use as your public directory. Nhập <b>public</b><br>
-                    <br>Configure as a single-page app (review all urls to/ index.html)? Nhập <b>No</b><br>
-                    <br>Set up automatic builds and deploy with Github? Nhập <b>No</b><br>
+                <img src="img/technical/t11.png" style="width: 1200px;"><br> What do you want to use as your public
+                directory. Import <b>public</b><br>
+                <br>Configure as a single-page app (review all urls to/ index.html)? Import <b>No</b><br>
+                <br>Set up automatic builds and deploy with Github? Nhập <b>No</b><br>
                 <img src="img/technical/t12.png" style="width: 1200px;"><br>
 
-                <b>2.4:</b> Mở <b>firebase.json</b> và thêm vào câu lệnh tiêu đề <br><br>
+                <b>2.4:</b> Open <b>firebase.json</b> and add the title statement <br><br>
 
                 <img src="img/technical/t13.png" style="width: 1200px;"><br><br>
                 <!-- <img src="img/technical/t13.png" style="height:auto;width:700px;"><br><br> -->
-                <b>2.5:</b> Chạy lệnh: <b>firebase deploy</b><br><br>
+                <b>2.5:</b> Run the command: <b>firebase deploy</b><br><br>
                 <img src="img/technical/t14.png" style="width: 1200px;"><br><br>
                 <!-- <img src="img/technical/t14.png" style="height:auto;width:700px;"><br><br> -->
-                <br>Chờ lệnh chạy xong sẽ có đường link dẫn đến trang web của bạn ở phần 
-                 <b>Hosting URL</b> 
+                <br>Wait for the command to finish running, there will be a link to your website in the section
+                <b>Hosting URL</b>
                 </br><br>
                 <img src="img/technical/t15.png"><br>
 
@@ -331,11 +330,11 @@
                             <div class="footer-content logo-footer">
                                 <div class="footer-head">
                                     <div class="footer-logo">
-                                        <a  href="index.html">
+                                        <a href="index.html">
                                             <h3 style="color: #E6922E;"><b>GROUP12</b></h3>
                                             <!-- <img src="img/logo/logo3.png" alt=""> -->
                                         </a>
-                                        
+
                                         <!-- <a class="footer-black-logo" href="#"><img src="img/logo/logo.png" alt=""></a> -->
                                     </div>
                                     <p>
