@@ -54,7 +54,8 @@ padding-left: 12px;
 }
 .center {
     text-align: center;
-    padding-bottom: 55px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 .center h2 {
     font-size: 36px;
@@ -134,6 +135,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
     background-color: #E6922E;
     border-color: #E6922E;
+    margin-bottom: 45px;
 }
 
 /* GROUP DIARY */
